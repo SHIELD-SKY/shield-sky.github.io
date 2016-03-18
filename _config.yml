@@ -5,7 +5,7 @@ header-img: img/home-bg.jpg
 email: yuxiaojie814@gmail.com
 description: "Think Different"
 keyword: ""
-url: ""              # your host, for absolute URL
+url: "http://shield-sky.github.io"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
 
