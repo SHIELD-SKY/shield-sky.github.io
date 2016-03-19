@@ -1,14 +1,12 @@
 ---
 layout:     post
-title:      "Unix/Linux 扫盲笔记"
-subtitle:   "不适合人类阅读，非常水的自我笔记"
-date:       2015-04-14 
+title:      "Hello World"
+subtitle:   "Hello World, Hello Blog"
+date:       2016-03-20 
 author:     "SHIELD-SKY"
-header-img: "img/post-bg-unix-linux.jpg"
+header-img: "img/post-bg-2015.jpg"
 tags:
-    - OS
-    - Unix
-    - Linux
+    - Life
 ---
 
 
