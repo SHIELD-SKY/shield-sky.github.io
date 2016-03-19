@@ -6,7 +6,7 @@ date:       2016-03-20 1:00:00
 author:     "SHIELD-SKY"
 header-img: "img/post-bg-2015.jpg"
 tags:
-    - Life
+- Life
 ---
 
 
