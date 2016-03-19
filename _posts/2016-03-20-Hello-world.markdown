@@ -2,12 +2,13 @@
 layout:     post
 title:      "Hello World"
 subtitle:   "Hello World, Hello Blog"
-date:       2016-03-20 01:00:00
+date:       2016-03-20 1:00:00
 author:     "SHIELD-SKY"
 header-img: "img/post-bg-2015.jpg"
 tags:
     - Life
 ---
+
 
 大学的一半时间基本算是过去，总感觉时间不够，最近在同时看几本书，也不是个办法，《汇编语言》，《挑战程序设计竞赛》，python,数据库，组成原理。。。还有孙老师推荐的《系统设计的一般原理》，还自己作死去蹭张老师的 密码学，本周五例会，决定研究caffe源码，添加联合贝叶斯，恩，看来又得复习一下c++......苍天呐！还得背单词！！！
 
