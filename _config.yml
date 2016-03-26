@@ -74,7 +74,7 @@ featured-condition-size: 1              # A tag will be featured if the size of 
 # Friends
 friends: [
      {
-        title: "my csdn blog"
+        title: "my csdn blog",
         href: "http://blog.csdn.net/shield_sky"
      },{
         title: "scalpel'blog",
