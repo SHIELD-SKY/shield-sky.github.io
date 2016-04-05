@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "算法训练网站整理"
+title:      "算法训练资料整理"
 subtitle:   "啊哈！算法！"
 date:       2016-04-05
 author:     "SHIELD-SKY"
@@ -35,7 +35,18 @@ tags:
 4. [matrix67](http://www.matrix67.com/)大神的博客
 5. [Acm之家的算法分类](http://www.acmerblog.com/index)
 
-另外 大家多用google吧！
+#书籍推荐：
+《算法导论》  
+《挑战程序设计竞赛》  
+《数据结构与算法 --C语言解释》（对于这本书还有有c++ java的解释）  
+《编程珠玑》  
+《具体数学》  
+《计算机程序设计艺术》  
+《编程之美》  
+刘汝佳的《算法竞赛入门经典》 
+
+再推荐一年文章[我的phd总结](http://www.52cs.org/?p=632)
+其他的大家多用google吧，先写这些 快下课了(通选课而已。。。)
 
 
  
