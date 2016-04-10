@@ -25,7 +25,7 @@ tags:
 方法/步骤
 ==
 
-###1.安装Pbc library依赖的库：		
+### 1.安装Pbc library依赖的库：		
 M4、flex、bison 其中在ununtu系统terminal中 M4、flex、bison均可以通过apt-get install方式安装。在Linux系统中键入如下命令即可安装相应的包。
 
 ``` 
@@ -34,7 +34,7 @@ M4、flex、bison 其中在ununtu系统terminal中 M4、flex、bison均可以通
   apt-get install bison
 ```
 
-###2.安装GMP库：	
+### 2.安装GMP库：	
 GMP库下载地址如下：https://gmplib.org/ 
 下载并解压，在terminal里进入解压后的文件夹进行安装，方法如下：
 
@@ -44,7 +44,7 @@ make check
 make install	
 ```
 
-###3.Pbc library库安装 :		
+### 3.Pbc library库安装 :		
 pbc（The Pairing-Based Cryptography Library）下载地址如下：[http://crypto.stanford.edu/pbc/download.html](http://crypto.stanford.edu/pbc/download.html)	
  下载并解压，在terminal里进入解压文件夹安装，方法如下：
   
@@ -55,7 +55,7 @@ make install
 ```
 至此pbc library 在ubuntu系统中的安装完成。接下来就是验证pbc 库是否安装正确
 
-###4.验证
+### 4.验证
 我在example下用hess.c文件试了一下 运行:
 
 ```
