@@ -37,8 +37,8 @@ M4、flex、bison 其中在ununtu系统terminal中 M4、flex、bison均可以通
 2. 安装GMP库：	
 GMP库下载地址如下：https://gmplib.org/ 
 下载并解压，在terminal里进入解压后的文件夹进行安装，方法如下：
- 
- ```./configure 	
+
+```./configure 	
 make 	
 make check 	
 make install	
@@ -48,8 +48,8 @@ make install
 pbc（The Pairing-Based Cryptography Library）下载地址如下：[http://crypto.stanford.edu/pbc/download.html](http://crypto.stanford.edu/pbc/download.html)
 
  下载并解压，在terminal里进入解压文件夹安装，方法如下：
- 
- ```
+  
+```
 ./configure 
 make 	
 make install 	
@@ -58,19 +58,19 @@ make install
 
 4. 我在example下用hess.c文件试了一下 运行:
 
- ```
- gcc -o test333 hest.c -lpbc -lgmp -I /usr/local/  include/pbc /usr/local/include/gmp.h 
- ```
+```
+gcc -o test333 hest.c -lpbc -lgmp -I /usr/local/  include/pbc /usr/local/include/gmp.h 
+```
  然后返回上一级:
   
- ```
+```
  cd ../
- ```
+```
  运行:
  
- ```
+```
   ./example/test333 param/a.param
-  ```
+```
   		
   如果你看到如下类似输出，恭喜pbc安装成功了
   
