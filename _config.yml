@@ -6,7 +6,7 @@ email: yuxiaojie814@gmail.com
 description: "Think  Different"
 keyword: ""
 url: "http://shield-sky.github.io"              # your host, for absolute URL
-baseurl: "/_posts"                             # for example, '/blog' if your blog hosted on 'host/blog'
+baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
 
 
