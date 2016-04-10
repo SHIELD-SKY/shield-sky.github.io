@@ -34,9 +34,9 @@ layout: default
 
                 <!-- Featured Tags -->
                 {% if site.featured-tags %}
-           <!--    <section>         -->
+                 <section>         
                     <!-- no hr -->
-              <!--      <h5><a href="/tags/">FEATURED TAGS</a></h5>
+                    <h5><a href="/tags/">FEATURED TAGS</a></h5>
                     <div class="tags">
         				{% for tag in site.tags %}
                             {% if tag[1].size > {{site.featured-condition-size}} %}
@@ -46,25 +46,9 @@ layout: default
                             {% endif %}
         				{% endfor %}
         			</div>
-                </section>   -->
+                </section>  
                 {% endif %}
-
-                 <!-- Featured Tags -->
-                {% if site.featured-tags %}
-                <section>
-                    <!-- no hr -->
-                    <h5><a href="{{'/tags/' | prepend: site.baseurl }}">FEATURED TAGS</a></h5>
-                    <div class="tags">
-                        {% for tag in site.tags %}
-                            {% if tag[1].size > {{site.featured-condition-size}} %}
-                                <a href="{{ site.baseurl }}/tags/#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}">
-                                    {{ tag[0] }}
-                                </a>
-                            {% endif %}
-                        {% endfor %}
-                    </div>
-                </section>
-                {% endif %}
+                
 
                 <!-- Friends Blog -->
                 {% if site.friends %}
