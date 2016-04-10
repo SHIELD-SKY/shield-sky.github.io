@@ -19,7 +19,6 @@ tags:
 [ACMer需要哪些算法](https://www.zhihu.com/question/19719698)
 
 #  刷题
-
 1. [topcoder](http://www.topcoder.com/)
    说起topcoder，不得不说起曾经看到的覃超大神在[知乎](https://www.zhihu.com/question/30218924)上的一个回答！
 2. [uva.onlinejudge](https://uva.onlinejudge.org/)   
