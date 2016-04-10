@@ -74,4 +74,4 @@ gcc -o test333 hest.c -lpbc -lgmp -I /usr/local/  include/pbc /usr/local/include
   		
   如果你看到如下类似输出，恭喜pbc安装成功了
   
-![](../img/pbc_shiyan.jpg)
+![](/img/pbc_shiyan.jpg)
