@@ -30,10 +30,10 @@ tags:
 
 1. 安装Pbc library依赖的库：		
 M4、flex、bison 其中在ununtu系统terminal中 M4、flex、bison均可以通过apt-get install方式安装。在Linux系统中键入如下命令即可安装相应的包。
-
- apt-get install M4 	
+'''apt-get install M4 	
 apt-get install flex 	
-apt-get install bison	
+apt-get install bison
+'''
 
 2. 安装GMP库：	
 GMP库下载地址如下：https://gmplib.org/ 
