@@ -30,7 +30,8 @@ pip install pydot
 sudo apt-get install graphviz
 ```
 
-### 3.绘图
+###  3.绘图
+
 进入caffe-master/python目录下运行：
 	
 ```
