@@ -9,14 +9,17 @@ tags:
 - DeepLearning
 ---
 
-组RAID
+1.RAID
 ==
 进BIOS 用legncy模式，保存设定.
 
 
 进入ubuntu 14.04安装程序
 Crtrl+Alt+F2 进入U盘 dpkg -i 安装RAID 14.04的驱动
+然后正常安装ubuntu即可
 
+2.安装caffe及相关工具
+==
 下载[cuda](https://developer.nvidia.com/cuda-downloads)
 
 1.http://caffe.berkeleyvision.org/install_apt.html
