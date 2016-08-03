@@ -15,7 +15,9 @@ tags:
 
 
 进入ubuntu 14.04安装程序
-Crtrl+Alt+F2 进入U盘 dpkg -i 安装RAID 14.04的驱动
+Crtrl+Alt+F2 进入U盘（至于如何在命令行下进入u盘请自行百度 or Google） 
+
+使用dpkg -i命令安装RAID 14.04的驱动
 然后正常安装ubuntu即可
 
 2.安装caffe及相关工具
