@@ -6,8 +6,9 @@ date:       2016-08-3
 author:     "SHIELD-SKY"
 header-img: "img/post-bg-2015.jpg"
 tags:
-	- DeepLearning
+- DeepLearning
 ---
+
 ## 组RAID
 进BIOS 用legncy模式，保存设定.
 
