@@ -6,7 +6,7 @@ date:       2016-08-3
 author:     "SHIELD-SKY"
 header-img: "img/post-bg-2015.jpg"
 tags:
-- DeepLearning
+- deep learning
 ---
 
 1.RAID
