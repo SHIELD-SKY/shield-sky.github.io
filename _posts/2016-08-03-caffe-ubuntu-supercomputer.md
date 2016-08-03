@@ -9,7 +9,8 @@ tags:
 - DeepLearning
 ---
 
-## 组RAID
+组RAID
+==
 进BIOS 用legncy模式，保存设定.
 
 
