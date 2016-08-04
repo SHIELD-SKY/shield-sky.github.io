@@ -12,32 +12,42 @@ tags:
 ```
 variable1 = value1 [variable2 = value2 ... variableN = valueN]
 ```
+
 ## 命令替换
 将其输出替换为\`command\`。
 
 ```
 `command`
 ```
+
 ## 导出环境
 导出 ’name-list‘ 里的名称和当前值的拷贝到所有后继命令
+
 ```
 export [name-list]
 ```
+
 ## 变量重置
 重置或删除’name-list‘里指定的变量或函数，’name-list‘为由空格分隔的名称列表
+
 ```
 unset [name-list]
 ```
+
 ## 创建用户自定义的制度变量
 防止对'name-list'里指定的变量重新赋值
+
 ```
 readonly [name-list]
 ```
+
 ## 从标准输入读
 从标准输入读取一行并把此行中的单词依次赋给 ‘variable-list’中的变量
+
 ```
 read [variable-list]
 ```
+
 ## 向shell脚本传递参数
 
 把个位置参数的值一次设为‘argument-list’里指定测参数
@@ -52,6 +62,7 @@ set [option] [argument-list]
 
 
 ## if-then-elif-else-fi语句
+
 ### 实现两路或多路分支
 
 ```
@@ -65,6 +76,7 @@ if expression
 				else-command-list]
 fi
 ```
+
 ### 评估表达式 ‘expression’并返回真或假的状态
 两种写法：
 
@@ -117,12 +129,14 @@ do
 done
 ```
 ## while语句
+
 ```
 while expression
 do
 	command-list
 done
 ```
+
 ## until语句
 
 **只要’expression‘ 为假，就执行’command-list‘**
