@@ -2,43 +2,43 @@
 layout:     post
 title:      "UNIX学习笔记"
 subtitle:   "程序控制流命令"
-date:       2016-08-04 
+date:       2016-08-04 19:33:13
 author:     "SHIELD-SKY"
 header-img: "img/post-bg-2015.jpg"
 tags:
 - UNIX
 ---
-##读写shell变量
+## 读写shell变量
 ```
 variable1 = value1 [variable2 = value2 ... variableN = valueN]
 ```
-##命令替换
+## 命令替换
 将其输出替换为\`command\`。
 
 ```
 `command`
 ```
-##导出环境
+## 导出环境
 导出 ’name-list‘ 里的名称和当前值的拷贝到所有后继命令
 ```
 export [name-list]
 ```
-##变量重置
+## 变量重置
 重置或删除’name-list‘里指定的变量或函数，’name-list‘为由空格分隔的名称列表
 ```
 unset [name-list]
 ```
-##创建用户自定义的制度变量
+## 创建用户自定义的制度变量
 防止对'name-list'里指定的变量重新赋值
 ```
 readonly [name-list]
 ```
-##从标准输入读
+## 从标准输入读
 从标准输入读取一行并把此行中的单词依次赋给 ‘variable-list’中的变量
 ```
 read [variable-list]
 ```
-##向shell脚本传递参数
+## 向shell脚本传递参数
 
 把个位置参数的值一次设为‘argument-list’里指定测参数
 可以传送9个参数的值给shell脚本，前9个参数的值分别被存储在变量**$1**到**$9**中。
@@ -51,8 +51,8 @@ set [option] [argument-list]
 ```
 
 
-##if-then-elif-else-fi语句
-###实现两路或多路分支
+## if-then-elif-else-fi语句
+### 实现两路或多路分支
 
 ```
 if expression
@@ -65,7 +65,7 @@ if expression
 				else-command-list]
 fi
 ```
-###评估表达式 ‘expression’并返回真或假的状态
+### 评估表达式 ‘expression’并返回真或假的状态
 两种写法：
 
 ```
@@ -77,7 +77,7 @@ test [expression]
 		then ...
 ```
 
-###用于test命令的运算符：
+### 用于test命令的运算符：
 
 1. 文件测试
 	- -d file : 'file' 为目录时为真
@@ -101,13 +101,13 @@ test [expression]
 	- -n str : 'str' 长度大于0时为真
 	- -z str : 'str' 长度等于0时为真
 	
-###构成复杂表达式的运算符
+### 构成复杂表达式的运算符
 1. ! 逻辑非
 2. -a 逻辑与
 3. ('expression') 圆括号用于把表达式分组；每个括号前后至少应有一个空格
 4. -o 逻辑或
 	
-##for语句
+## for语句
 重复执行‘command-list’里的命令多次，执行次数与‘argument-list’里的单词个数一样多。方括号内为可选部分，如果不带看我宣布分，参数可在命令行里提供。
 
 ```
@@ -116,14 +116,14 @@ do
 	command-list
 done
 ```
-##while语句
+## while语句
 ```
 while expression
 do
 	command-list
 done
 ```
-##until语句
+## until语句
 
 **只要’expression‘ 为假，就执行’command-list‘**
 
@@ -134,7 +134,7 @@ do
 done
 ```
 
-##case语句
+## case语句
 ```
 case test-string in 
 	pattern1) command-list1
