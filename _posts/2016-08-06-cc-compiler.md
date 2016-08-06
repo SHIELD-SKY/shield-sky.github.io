@@ -70,13 +70,13 @@ cc -o slogan 1.c
    要为c源文件创建目标模块可以使用带-c选项的cc命令，在使用-c选项编译时，编译器会在当前目录生成一个目标文件，这个文件与源文件相同，并以.o为扩展名，于是可以再使用cc命令将多个目标文件连接在一起。例如：
     
 ``` 
-    $ cc -c driver.c
-    $ cc -c stack.c
-    $ cc -c misc.c    
-    $ cc misc.o stack.o driver.o -o polish 
-    $ polish  
-    [output of the program]
-    $ 	
+$ cc -c driver.c
+$ cc -c stack.c
+$ cc -c misc.c    
+$ cc misc.o stack.o driver.o -o polish 
+$ polish  
+[output of the program]
+$ 	
 ```
 	
 还可以使用-c选项来编译多个文件。在下面的第一个命令行中只用一个命令就编译了所有三个源文件并生成了目标文件，编译器在编译时会将每个文件的名字显示出来。在命令行中文件列出的次序并不重要，第二个命令行讲三个目标文件连接起来生成一个可执行文件。
