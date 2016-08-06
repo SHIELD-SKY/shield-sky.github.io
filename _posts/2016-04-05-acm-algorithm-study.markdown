@@ -26,6 +26,8 @@ tags:
 3. [leetcode](https://leetcode.com/)
 4. [hihocoder](http://hihocoder.com/)官网介绍：通过高水平的程序设计比赛提升编程水平，得到名企offer
 5. [浙大oj](http://acm.zju.edu.cn/onlinejudge/)
+6. [OpenJudge](http://openjudge.cn/)北大的开放测试平台，可以自己建小组
+7. [poj](http://poj.org/)也是北大的
 
 #  算法学习 
 
@@ -43,7 +45,8 @@ tags:
 《具体数学》  
 《计算机程序设计艺术》  
 《编程之美》  
-刘汝佳的《算法竞赛入门经典》 
+ 刘汝佳的《算法竞赛入门经典》
+
 
 再推荐一篇文章[我的phd总结](http://www.52cs.org/?p=632)  
 其他的大家多用google吧，先写这些 快下课了(通选课而已。。。)  
