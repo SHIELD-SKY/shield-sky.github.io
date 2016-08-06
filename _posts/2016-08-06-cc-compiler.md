@@ -82,12 +82,12 @@ $
 还可以使用-c选项来编译多个文件。在下面的第一个命令行中只用一个命令就编译了所有三个源文件并生成了目标文件，编译器在编译时会将每个文件的名字显示出来。在命令行中文件列出的次序并不重要，第二个命令行讲三个目标文件连接起来生成一个可执行文件。
 	
 ```
-	$ cc -c driver.c stack.c misc
-	driver.c:
-	stack.c:
-	misc.c:
-	$ cc misc.o stack.o driver.o -o polish
-	$
+$ cc -c driver.c stack.c misc
+driver.c:
+stack.c:
+misc.c:
+$ cc misc.o stack.o driver.o -o polish
+$
 ```
 	
    如果更改了源文件中的一个，就只需要使用cc -c 命令来生成这个源文件的目标文件，然后将所有的目标文件连接起来生成可执行文件（使用第二个cc命令）。
@@ -95,42 +95,41 @@ $
 ### 连接库
 绝大多数UNIX系统上的C编译器会在编译程序的时候将正确的库连接到程序上，然而有些时候必须显式地告诉编译器必须连接什么库。要做到这一点可以使用带**-l**选项的cc命令，并在后面紧跟着库名字中在字符串lib之后，扩展名之前的字母。大多数的库在目录/lib中，对每一个需要连接的库需要使用一个单独的-l选项。在下面的会话中，将要吧数学库（/lib/libm.a）连接到power.c文件中程序的目标代码上，第一个cc命令表明如果没有连接数学库编译器就会显示一个错误信息，消息说符号pow没有在文件power.o中找到。数学库的名字是libm.a，所以在-l选项后紧跟字母（在字符串lib之后，在扩展名之前）。
 	
- ```
-	$ cat power.c
+```
+$ cat power.c	
+#inlcude <math.h>
+#include <stdio.h>
 	
-	#inlcude <math.h>
-	#include <stdio.h>
+main()
+{
+	float x,y;
 	
-	main()
-	{
-		float x,y;
-		
-		printf("The program takes x and y from stdin and displays x^y.\n");
-		printf("Enter integer x: ");
-		scanf("%f", &x);
-		printf("Enter integer y: ");
-		scanf("%f", &y);
-		printf("x^y is: %6.3f\n", pow((double)x,(double)y));
-	}
+	printf("The program takes x and y from stdin and displays x^y.\n");
+	printf("Enter integer x: ");
+	scanf("%f", &x);
+	printf("Enter integer y: ");
+	scanf("%f", &y);
+	printf("x^y is: %6.3f\n", pow((double)x,(double)y));
+}
 	
-	$ cc power.c -o power
+$ cc power.c -o power
 	
-	Undefined           first referenced
-	 symbol                in file
-	 pow                    power.o
-	 ld: fatal:Symbol referencing errors. No output written to power
+Undefined           first referenced
+ symbol                in file
+ pow                    power.o
+ ld: fatal:Symbol referencing errors. No output written to power
 	 
-	 $ cc power.c -lm -o power
-	 $ power
+$ cc power.c -lm -o power
+$ power
 	 
-	 The program takes x and y from stdin and displays x^y. 
-	 Enter integer x: 9.82
-	 Enter integer y: 2.3
-	 x^y is: 191.362
-	 
-	 $
- ```
- 	
+ The program takes x and y from stdin and displays x^y. 
+ Enter integer x: 9.82
+ Enter integer y: 2.3
+ x^y is: 191.362
+ 	 
+ $
+```
+	
  下面的命令行将/lib/libsoket.a和/lib/libnsl.a两个库连接大client.c文件中程序的目标代码上，生成的可执行代码在文件client中。
  	
  ```
