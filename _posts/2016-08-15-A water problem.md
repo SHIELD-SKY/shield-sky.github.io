@@ -41,13 +41,15 @@ For the i-th test case, output Case #i: , then output "YES" or "NO" for the answ
 改写成如下形式：
 
 {% raw %}
-  $$f(x) &= \\f(x) = {a_n}x^n + {a_{n-1}x^{n-1}} + \cdot\cdot\cdot+{a_2}x^2+{a_1}x+a_0  
+ \begin{align*}
+f(x) &= \\f(x) = {a_n}x^n + {a_{n-1}x^{n-1}} + \cdot\cdot\cdot+{a_2}x^2+{a_1}x+a_0  
  &= \\ f(x) = ({a_n}x^(n-1) + {a_{n-1}x^{n-2}} + \cdot\cdot\cdot+{a_2}x^2+{a_1})x+a_0 
  &= \\ f(x) = (({a_n}x^(n-2) + {a_{n-1}x^{n-3}} + \cdot\cdot\cdot+{a_2})x+{a_1})x+a_0 
  &= \\ \cdot
  &= \\ \cdot
  &= \\ \cdot
- &= ((\cdot\cdot\cdot({a_n}x + a_{n-1}\cdot\cdot\cdot+a_1)x+a_0$$
+ &= ((\cdot\cdot\cdot({a_n}x + a_{n-1}\cdot\cdot\cdot+a_1)x+a_0
+\end{align*}
 {% endraw %}
 
 
