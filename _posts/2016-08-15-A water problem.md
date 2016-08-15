@@ -2,7 +2,7 @@
 layout:     post
 title:      "A water problem"
 subtitle:   "网络赛整理"
-date:       2016-08-10
+date:       2016-08-15
 author:     "SHIELD-SKY"
 header-img: "img/post-bg-2015.jpg"
 tags:
@@ -24,6 +24,23 @@ For each test, we have a line with an only integer N(0≤N), the length of N is 
 ### Output
 For the i-th test case, output Case #i: , then output "YES" or "NO" for the answer.
 
+主要就是大数取模的问题，涉及到秦九韶算法,数论
+数论的的基本定理：
+
+```
+(a + b) mod c = 
+	((a mod c) + (b mod c)) mod c
+```
+把一个n次多项式
+{% raw %}
+  $$a^2 + b^2 = c^2$$ 
+  $$f(x) = {a_n}^n + {a_{n-1}^{n-1}} $$
+{% endraw %}
+改写成如下形式：
+
+
+
+综上，代码如下：
 
 
 ```
