@@ -25,6 +25,7 @@ For each test, we have a line with an only integer N(0≤N), the length of N is 
 For the i-th test case, output Case #i: , then output "YES" or "NO" for the answer.
 
 主要就是大数取模的问题，涉及到秦九韶算法,数论
+
 数论的的基本定理：
 
 ```
@@ -33,8 +34,7 @@ For the i-th test case, output Case #i: , then output "YES" or "NO" for the answ
 ```
 把一个n次多项式
 {% raw %}
-  $$a^2 + b^2 = c^2$$ 
-  $$f(x) = {a_n}x^n + {a_{n-1}x^{n-1}} $$
+  $$f(x) = {a_n}x^n + {a_{n-1}x^{n-1}} + \cdot\cdot\cdot+{a_1}x+a_0  $$
 {% endraw %}
 改写成如下形式：
 
