@@ -84,5 +84,6 @@ int main()
 ```
 
 #### PS：
-吐槽一下，实验了好多次终于知道怎么在这里面用latex写漂亮的数学公式了，但是真的好麻烦。。。。我就是按照[这个](http://wanguolin.github.io/mathmatics_rending/)在default.html里加句代码，然后如果对自己写的Latex代码信心不足，可以先在[这个](http://mathurl.com)地方实验，这个网站是实时生成公式，挺方便的
+吐槽一下，实验了好多次终于知道怎么在这里面用latex写漂亮的数学公式了，但是真的好麻烦。。。。我就是按照[这个](http://wanguolin.github.io/mathmatics_rending/)在default.html里加句代码，然后如果对自己写的Latex代码信心不足，可以先在[这个](http://mathurl.com)地方实验，这个网站是实时生成公式，挺方便的，另外可参考
+[How to supported latex in github-pages](http://stackoverflow.com/questions/26275645/how-to-supported-latex-in-github-pages)
 
