@@ -34,7 +34,7 @@ For the i-th test case, output Case #i: , then output "YES" or "NO" for the answ
 把一个n次多项式
 {% raw %}
   $$a^2 + b^2 = c^2$$ 
-  $$f(x) = {a_n}^n + {a_{n-1}^{n-1}} $$
+  $$f(x) = {a_n}x^n + {a_{n-1}x^{n-1}} $$
 {% endraw %}
 改写成如下形式：
 
