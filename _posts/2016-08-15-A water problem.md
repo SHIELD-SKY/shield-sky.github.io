@@ -48,6 +48,13 @@ f(x) &= \\{a_n}x^n + {a_{n-1}x^{n-1}} + \cdot\cdot\cdot+{a_2}x^2+{a_1}x+a_0
  &= \\ \cdot
  &= \\ \cdot
  &= ((\cdot\cdot\cdot({a_n}x + a_{n-1}\cdot\cdot\cdot+a_1)x+a_0
+ 
+ \begin{eqnarray}
+     r_{k+1} &=& -\nabla f(x_{k+1})\nonumber \\
+             &=& b-Ax_{k+1} \nonumber \\
+             &=& b-A(x_{k}+\alpha_{k}p_{k})\nonumber \\
+             &=& r_k-\alpha_{k}Ap_{k}
+\end{eqnarray}
 {% endraw %}
 
 
