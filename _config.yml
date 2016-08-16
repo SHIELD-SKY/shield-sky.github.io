@@ -80,7 +80,7 @@ friends: [
      {
         title: "my csdn blog",
         href: "http://blog.csdn.net/shield_sky"
-     },{
+    },{
         title: "scalpel'blog",
         href: "http://scalpel.xyz"
     },{
@@ -89,9 +89,8 @@ friends: [
     },{
         title: "winterfell30",
         href: "http://winterfell30.com"
-  },{
+    },{
         title: "test404",
         href: "http://www.cnblogs.com/test404/"
-  }
-}
+   }
 ]
