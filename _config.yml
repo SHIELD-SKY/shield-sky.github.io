@@ -92,5 +92,8 @@ friends: [
     },{
         title: "test404",
         href: "http://www.cnblogs.com/test404/"
-   }
+   },{
+      title: "chentsuei",
+      href: "chentsuei.github.io"  
+    }
 ]
