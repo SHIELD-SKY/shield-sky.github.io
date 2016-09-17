@@ -28,6 +28,7 @@ A related board game with a given positive integer n from one agent, asks all pa
 
 #### Input
 The first line of input contains an integer t (1≤t≤500000), the number of test cases. t test cases follow. Each test case provides one integer n (1≤n≤109).
+
 #### Output
 For each test case, output one line with only one integer corresponding to the shortest "I Count Two Three Number" no smaller than n.
 
