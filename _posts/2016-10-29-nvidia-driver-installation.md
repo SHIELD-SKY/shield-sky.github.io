@@ -55,7 +55,7 @@ sudo apt-get install build-essential pkg-config xserver-xorg-dev linux-headers-`
 
 其实可以跳过，在安装过程那一部，运行驱动安装程序，会问您要不要帮您屏蔽，选择yes退出后重启即可。 下面两种方案只能采取一种。
 
-1. blacklist.conf法
+* blacklist.conf法
 
 ```
 	sudo nano /etc/modprobe.d/blacklist.conf
@@ -75,15 +75,15 @@ sudo apt-get install build-essential pkg-config xserver-xorg-dev linux-headers-`
 	blacklist rivatv
 ```
 
-2. 也可以通过Grub2屏蔽
+* 也可以通过Grub2屏蔽
 
-   ```
+```
    sudo nano /etc/default/grub
   
    GRUB_CMDLINE_LINUX="nomodeset"  #修改这行
    
    sudo update-grub
-   ```
+```
    
 ##### 注销系统，关闭图形环境
  
