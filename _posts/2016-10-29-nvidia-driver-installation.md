@@ -83,7 +83,7 @@ sudo apt-get install build-essential pkg-config xserver-xorg-dev linux-headers-`
    GRUB_CMDLINE_LINUX="nomodeset"  #修改这行
    
    sudo update-grub
-```
+ ```
    
 ##### 注销系统，关闭图形环境
  
@@ -127,5 +127,20 @@ sudo start lightdm #适用于Ubuntu(11.10)
 ```
 
 
+#### 参考：
+
+[Linux x64 (AMD64/EM64T) Display Driver](http://www.geforce.cn/drivers/results/108769)
+
+[在内核升级后自动安装nvdia驱动](http://forum.ubuntu.org.cn/viewtopic.php?f=42&t=141431)
+
+[深度学习主机环境配置: Ubuntu16.04+Nvidia GTX 1080+CUDA8.0](http://www.52nlp.cn/深度学习主机环境配置-ubuntu-16-04-nvidia-gtx-1080-cuda-8)
+
+[wiki.ubuntu.com.cn/NVIDIA](https://wiki.ubuntu.com.cn/NVIDIA)
+
+[Install Caffe on EC2 from scratch (Ubuntu, CUDA 7, cuDNN 3)](https://github.com/BVLC/caffe/wiki/Install-Caffe-on-EC2-from-scratch-(Ubuntu,-CUDA-7,-cuDNN-3))
+
+[“Graphics Drivers” team](https://launchpad.net/~graphics-drivers/+archive/ubuntu/ppa)
+
+[Ubuntu的软件更新常识－－添加软件源与ppa源](http://blog.mythsman.com/?p=2043)
 
 
