@@ -60,6 +60,7 @@ sudo apt-get install build-essential pkg-config xserver-xorg-dev linux-headers-`
 	```
 	sudo nano /etc/modprobe.d/blacklist.conf
 	```
+	
 	添加
 
 	```
@@ -86,13 +87,13 @@ sudo apt-get install build-essential pkg-config xserver-xorg-dev linux-headers-`
    
 ##### 注销系统，关闭图形环境
  
- ```
+```
  sudo /etc/init.d/kdm stop  #适用于Kubuntu
  
  sudo /etc/init.d/gdm stop  #适用于Ubuntu
  
  sudo stop lightdm  #适用于Ubuntu(11.10)
- ```
+```
  
 ##### 安装过程
 
