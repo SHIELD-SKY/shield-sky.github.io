@@ -61,7 +61,7 @@ sudo apt-get install build-essential pkg-config xserver-xorg-dev linux-headers-`
 	sudo nano /etc/modprobe.d/blacklist.conf
 ```
 	
-	添加
+添加
 
 ```
 	blacklist vga16fb
