@@ -57,13 +57,13 @@ sudo apt-get install build-essential pkg-config xserver-xorg-dev linux-headers-`
 
 1. blacklist.conf法
 
-	```
+```
 	sudo nano /etc/modprobe.d/blacklist.conf
-	```
+```
 	
 	添加
 
-	```
+```
 	blacklist vga16fb
 
 	blacklist nouveau
@@ -73,7 +73,7 @@ sudo apt-get install build-essential pkg-config xserver-xorg-dev linux-headers-`
 	blacklist nvidiafb
 
 	blacklist rivatv
-	```
+```
 
 2. 也可以通过Grub2屏蔽
 
