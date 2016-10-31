@@ -2,7 +2,7 @@
 layout:     post
 title:      "pbc library on mac"
 subtitle:   "基于对的加密"
-date:       2016-10- 15:59:59
+date:       2016-10-31 15:47:59
 author:     "SHIELD-SKY"
 header-img: "img/post-bg-2015.jpg"
 tags:
