@@ -117,7 +117,7 @@ Mini-About-Me 这个模块将在你的头像下面，展示你所有的社交账
 
 ```
 # Featured Tags
-featured-tags: true  
+featured-tags: true
 featured-condition-size: 1     # A tag will be featured if the size of it is more than this condition value
 ```
 
