@@ -36,7 +36,7 @@ tags:
 要讲外微分形式，必须先讲**定向**的概念，法国著名的拓扑学家[托姆（R. Thom,1923~2002）](https://zh.wikipedia.org/wiki/勒内·托姆)教授，曾对吴文俊教授表达过这样的意见：定向概念是几何拓扑中最有深刻意义的伟大创造之一。
 
 ### 满足下述两条规则的微分乘积称为微分的外乘积：
-1. {%raw%}$$x\wedge dy = 0$${%endraw%}
+1. {%raw%}$$dx\wedge dy = 0$${%endraw%}
 2. {%raw%}$$dx\wedge dy=-dy\wedge dx$${%endraw%}
 
 
@@ -122,7 +122,8 @@ $$d\omega = (\dfrac {\partial R}{\partial y}-\dfrac {\partial Q}{\partial z}) dy
  
  {%raw%}
  
- $$\int_{\partial \Omega}{ \omega = \int_\Omega d \omega$$
+ $$\int_{\partial \Omega} \omega = \int_\Omega d \omega$$
+
  
  {%endraw%}
 
