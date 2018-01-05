@@ -122,7 +122,7 @@ $$d\omega = (\dfrac {\partial R}{\partial y}-\dfrac {\partial Q}{\partial z}) dy
  
  {%raw%}
  
- \[  \int_{\partial \Omega}{ \omega = \int_\Omega d \omega \]
+ $$\int_{\partial \Omega}{ \omega = \int_\Omega d \omega$$
  
  {%endraw%}
 
