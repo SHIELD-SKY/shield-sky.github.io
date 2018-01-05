@@ -36,8 +36,8 @@ tags:
 要讲外微分形式，必须先讲**定向**的概念，法国著名的拓扑学家[托姆（R. Thom,1923~2002）](https://zh.wikipedia.org/wiki/勒内·托姆)教授，曾对吴文俊教授表达过这样的意见：定向概念是几何拓扑中最有深刻意义的伟大创造之一。
 
 ### 满足下述两条规则的微分乘积称为微分的外乘积：
-1. {%raw%}$dx\wedge dy = 0${%endraw%}
-2. {%raw%}$dx\wedge dy=-dy\wedge dx${%endraw%}
+1. {%raw%}$$x\wedge dy = 0$${%endraw%}
+2. {%raw%}$$dx\wedge dy=-dy\wedge dx$${%endraw%}
 
 
 由微分的外乘积乘上函数组成的微分形式，称为**外微分形式**.
@@ -59,14 +59,14 @@ Hdx Λ dy Λ dz
 外微分的外乘积满足分配律及结合律，及如果λ，μ，ν是任意三个外微分形式，则
 
 ```
-1. (λ + μ) Λ ν = λ Λ ν + μ Λ ν
-   λ Λ (μ + ν) = λ Λ μ + λ Λ ν
-2. λ Λ (μ Λ ν) = (λ Λ μ) Λ ν
+(1) (λ + μ) Λ ν = λ Λ ν + μ Λ ν
+    λ Λ (μ + ν) = λ Λ μ + λ Λ ν
+(2) λ Λ (μ Λ ν) = (λ Λ μ) Λ ν
 ```
 当然，外微分形式的乘积不满足交换律，而满足
 
 
-3. 若λ为p次外微分形式，μ为q次外微分形式，则
+(3) 若λ为p次外微分形式，μ为q次外微分形式，则
   
 {%raw%}$$ \mu \wedge \lambda =\left( -1\right) ^{pq}\lambda \wedge \mu$$ {%endraw%}
 
@@ -122,11 +122,11 @@ $$d\omega = (\dfrac {\partial R}{\partial y}-\dfrac {\partial Q}{\partial z}) dy
  
  {%raw%}
  
- $$  \int_{\partial \Omega}{ \omega = \int_\Omega d \omega $$
+ $$\int_{\partial \Omega}{ \omega = \int_\Omega d \omega$$
  
  {%endraw%}
 
-这里，{%raw%}$ \omega ${%endraw%}为外微分形式，{%raw%}$ d\omega ${%endraw%} 为{%raw%}$ \omega ${%endraw%}的外微分，{%raw%}$ \Omega ${%endraw%}为{%raw%}$ d\omega ${%endraw%}的积分区域，{%raw%}$ {\partial \Omega} ${%endraw%}表示{%raw%}$ \Omega ${%endraw%}的边界，{%raw%}$ \Omega ${%endraw%}的维数与{%raw%}$ d\omega ${%endraw%}的次数相一致，{%raw%}$\int_ ${%endraw%}表示区域有多少维数就是多少重数。
+这里，{%raw%}$\omega${%endraw%}为外微分形式，{%raw%}$ d\omega ${%endraw%} 为{%raw%}$ \omega ${%endraw%}的外微分，{%raw%}$ \Omega ${%endraw%}为{%raw%}$ d\omega ${%endraw%}的积分区域，{%raw%}$ {\partial \Omega} ${%endraw%}表示{%raw%}$ \Omega ${%endraw%}的边界，{%raw%}$ \Omega ${%endraw%}的维数与{%raw%}$ d\omega ${%endraw%}的次数相一致，{%raw%}$\int_ ${%endraw%}表示区域有多少维数就是多少重数。
 
 从这里还可以看出：除了Green公式Stokes公式以及Gauss公式以外，在三维Euclid空间中，联系区域与边界的积分公式不会再有了，因为这是三次外微分形式为零。
 
