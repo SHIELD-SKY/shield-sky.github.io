@@ -127,7 +127,7 @@ $$d\omega = (\dfrac {\partial R}{\partial y}-\dfrac {\partial Q}{\partial z}) dy
  
  {%endraw%}
 
-这里，{%raw%}\\( \omega \\){%endraw%}为外微分形式，{%raw%}\\(d\omega\\){%endraw%} 为{%raw%}\\(\omega\\){%endraw%}的外微分，{%raw%}\\(\Omega\\){%endraw%}为{%raw%}\\(d\omega\\){%endraw%}的积分区域，{%raw%}\\( {\partial \Omega} \\){%endraw%}表示{%raw%}\\( \Omega \\){%endraw%}的边界，{%raw%}\\(\Omega \\){%endraw%}的维数与{%raw%}\\( d\omega ${%endraw%}的次数相一致，{%raw%}\\(\int\\){%endraw%}表示区域有多少维数就是多少重数。
+这里，{%raw%}\\( \omega \\){%endraw%}为外微分形式，{%raw%}\\(d\omega\\){%endraw%} 为{%raw%}\\(\omega\\){%endraw%}的外微分，{%raw%}\\(\Omega\\){%endraw%}为{%raw%}\\(d\omega\\){%endraw%}的积分区域，{%raw%}\\( {\partial \Omega} \\){%endraw%}表示{%raw%}\\( \Omega \\){%endraw%}的边界，{%raw%}\\(\Omega \\){%endraw%}的维数与{%raw%}\\( d\omega \\){%endraw%}的次数相一致，{%raw%}\\( \int\\){%endraw%}表示区域有多少维数就是多少重数。
 
 从这里还可以看出：除了Green公式Stokes公式以及Gauss公式以外，在三维Euclid空间中，联系区域与边界的积分公式不会再有了，因为这是三次外微分形式为零。
 
