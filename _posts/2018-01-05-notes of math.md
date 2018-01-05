@@ -118,7 +118,7 @@ $$d\omega = (\dfrac {\partial R}{\partial y}-\dfrac {\partial Q}{\partial z}) dy
  以此类推。。
  显然我们可知，在三维空间中，任意三次外微分形式的外微分为零。
  
- 在三维Euclid空间，Green公式、Stokes公式与Gauss公式实际上都是可以由同一公式写出来，这个定理（或公式）也叫做**斯托克斯（Stokes）定理（Stokes公式）**
+ 在三维Euclid空间，Green公式、Stokes公式与Gauss公式实际上都是可以由同一公式写出来，这个定理（或公式）也叫做**斯托克斯（Stokes）定理（Stokes公式）**：
  
  {%raw%}
  
