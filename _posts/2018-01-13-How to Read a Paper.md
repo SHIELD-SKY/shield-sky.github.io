@@ -11,7 +11,7 @@ tags:
 
 
 >考研阶段固定在浏览器的文章终于看完了~
-考研阶段看到的一篇![文章](http://ccr.sigcomm.org/online/files/p83-keshavA.pdf)文章，今天翻译一下~
+考研阶段看到的一篇[文章](http://ccr.sigcomm.org/online/files/p83-keshavA.pdf)文章，今天翻译一下~
 
 研究者们花费了大量的时间阅读研究论文。然而，这项技能很少有人传授，这导致了很多精力被不必要的浪费了。本文提出了一个实际而有效的阅读研究论文的三步阅读法. 我还会描述如何利用这个方法来做个文献综述。
 
@@ -99,9 +99,9 @@ tags:
 This work was supported by grants from the National Science and Engineering Council of Canada, the Canada Research Chair Program, Nortel Networks, Microsoft, Intel Corporation, and Sprint Corporation.
 
 # 8. 参考文献
-[1] ![T. Roscoe, "Writing Reviews for Systems Conferences,"](http://people.inf.ethz.ch/troscoe/pubs/review-writing.pdf)
-[2] ![H. Schulzrinne, "Writing Technical Articles,"] (http://www.cs.columbia.edu/~hgs/etc/writing-style.html)
-[3] ![G.M. Whitesides, "Whitesides' Group: Writing a Paper,"]( http://www.ee.ucr.edu/~rlake/Whitesides_writing_res_paper.pdf)
+[1] [T. Roscoe, "Writing Reviews for Systems Conferences,"](http://people.inf.ethz.ch/troscoe/pubs/review-writing.pdf)
+[2] [H. Schulzrinne, "Writing Technical Articles,"] (http://www.cs.columbia.edu/~hgs/etc/writing-style.html)
+[3] [G.M. Whitesides, "Whitesides' Group: Writing a Paper,"]( http://www.ee.ucr.edu/~rlake/Whitesides_writing_res_paper.pdf)
 
 很高兴你能看到这儿。若本文对你有所用处，或者内容有什么不足之处，敬请毫不犹豫给个回复。谢谢！
 
