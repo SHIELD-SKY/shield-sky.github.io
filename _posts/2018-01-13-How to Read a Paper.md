@@ -100,7 +100,9 @@ This work was supported by grants from the National Science and Engineering Coun
 
 # 8. 参考文献
 [1] [T. Roscoe, "Writing Reviews for Systems Conferences,"](http://people.inf.ethz.ch/troscoe/pubs/review-writing.pdf)
+
 [2] [H. Schulzrinne, "Writing Technical Articles,"] (http://www.cs.columbia.edu/~hgs/etc/writing-style.html)
+
 [3] [G.M. Whitesides, "Whitesides' Group: Writing a Paper,"]( http://www.ee.ucr.edu/~rlake/Whitesides_writing_res_paper.pdf)
 
 很高兴你能看到这儿。若本文对你有所用处，或者内容有什么不足之处，敬请毫不犹豫给个回复。谢谢！
