@@ -101,7 +101,7 @@ This work was supported by grants from the National Science and Engineering Coun
 # 8. 参考文献
 [1] [T. Roscoe, "Writing Reviews for Systems Conferences,"](http://people.inf.ethz.ch/troscoe/pubs/review-writing.pdf)
 
-[2] [H. Schulzrinne, "Writing Technical Articles"] (http://www.cs.columbia.edu/~hgs/etc/writing-style.html)
+[2] [H. Schulzrinne, "Writing Technical Articles"](http://www.cs.columbia.edu/~hgs/etc/writing-style.html)
 
 [3] [G.M. Whitesides, "Whitesides' Group: Writing a Paper,"]( http://www.ee.ucr.edu/~rlake/Whitesides_writing_res_paper.pdf)
 
