@@ -6,7 +6,7 @@ date:       2016-12-10 13:58:59
 author:     "SHIELD-SKY"
 header-img: "img/post-bg-2015.jpg"
 tags:
-- LINUX
+- Linux
 ---
 
 >最近vps被google学术禁了，只能换个ip了，突然想写个自启动脚本，以后懒得重启后，手动开服务了
