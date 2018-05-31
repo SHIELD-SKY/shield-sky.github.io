@@ -10,6 +10,7 @@ tags:
 ---
 
 > 最近师姐搞微分流形，想跑通张苗苗博士的[FlashC](https://bitbucket.org/FlashC/flashc/overview)看看效果，师姐和留学生经验略少，前些日子陪老外去了趟西安开会，闲来无事，突然想起写一篇经验之谈。
+
 > 感谢[学弟](https://wfly1998.github.io)补充修改
 
 #### 1.关于代码的获取
@@ -27,10 +28,12 @@ tags:
 #### 4.关于cmake make
 
 安装包有几种途径：
+
 (1) 使用`apt install` 
 新安装的系统最好先改一下更新源，比如改成[清华的源](https://mirrors.tuna.tsinghua.edu.cn)会快很多，清华源可以在系统更新选项的设置里直接选择。然后`sudo apt update`一下用来获取软件源里所有库的信息。
 
 一般编译时会提示缺少啥依赖库，可以搜一下有没有现成的可以直接`sudo apt install lib~` （一般这么装的库，都叫lib+库的名字）
+
 (2) 使用ppa方法，这个我[以前](http://shield-sky.github.io/2016/10/29/nvidia-driver-installation/)提到过。
 
 (3) 从源代码编译安装
