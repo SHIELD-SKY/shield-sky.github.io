@@ -15,6 +15,57 @@ tags:
 
 ## 正题
 
+2018年5月31日更新
+###新方法：使用`Systemd`
+关于`Systemd`的历史和基本知识可以学习一下[阮一峰](http://www.ruanyifeng.com/blog/2016/03/systemd-tutorial-commands.html)的文章
+
+在此我只记录一下自己用的脚本
+
+```bash
+vim /usr/local/bin/run_start_ssrr.sh
+
+	#!/bin/bash
+	cd ~
+	cd shadowsocksr/shadowsocks/
+	python3 server.py -d start
+	
+vim /usr/local/bin/run_stop_ssrr.sh
+	
+	#!/bin/bash
+	cd ~
+	cd shadowsocksr/shadowsocks/
+	python3 server.py -d stop
+
+cd /usr/local/bin/
+
+chmod +x *
+
+vim /etc/systemd/system/run_ssrr.service
+
+[Unit]
+After=network.target
+
+[Service]
+Type=forking
+ExecStart=/usr/local/bin/run_start_ssrr.sh
+ExecStop=/usr/local/bin/run_stop_ssrr.sh
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
+
+chmod 664 /etc/systemd/system/run_ssrr.service
+
+systemctl daemon-reload 
+
+systemctl enable run_ssrr.service
+
+systemctl start  run_ssrr.service
+
+systemctl status run_ssrr.service
+
+```
+----
 ### 方法一：编辑rc.local脚本
 
 **rc.local**脚本是一个ubuntu开机后会自动执行的脚本，我们可以在该脚本内添加命令行指令。
@@ -90,3 +141,4 @@ sudo update-rc.d -f run_server.sh remove
 ## 参考
 
 [Ubuntu下添加开机自动脚本](http://jackqdyulei.github.io/2016/03/06/linux-auto-script/)
+
