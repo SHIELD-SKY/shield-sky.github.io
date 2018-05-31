@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      "杂谈：关于Linux下安装调试代码"
-subtitle:   "Linux如何让别人的代码跑起来的经验之谈"
+title:      "杂谈:关于Linux下安装调试代码"
+subtitle:   "Linux下如何让别人的代码跑起来的经验之谈"
 date:       2018-05-31 11:03:30
 author:     "SHIELD-SKY"
 header-img: "img/post-bg-2015.jpg"
