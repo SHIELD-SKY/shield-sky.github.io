@@ -38,18 +38,18 @@ tags:
 ### 满足下述两条规则的微分乘积称为微分的外乘积：
 
  $$\begin{equation}
-  dx \wedge dx = 0
+  \mathrm dx \wedge \mathrm dx = 0
  \end{equation} $$
 
    $$\begin{equation}
-  dx \wedge dy=-dy\wedge dx
+  \mathrm dx \wedge \mathrm dy=- \mathrm dy\wedge \mathrm dx
   \end{equation}$$
 
 
 
 由微分的外乘积乘上函数组成的微分形式，称为**外微分形式**.
 
-若P,Q,R,A,B,C,H都是x,y,z的函数，则``` Pdx + Qdy + Rdz``` 为一次外微分形式（由于一次没有外乘积，所以与普通的微分形式是一样的）；
+若P,Q,R,A,B,C,H都是x,y,z的函数，则$P\mathrm dx + Q\mathrm dy + R\mathrm dz$为一次外微分形式（由于一次没有外乘积，所以与普通的微分形式是一样的）；
 
 ```
 Adx Λ dy + Bdy Λ dz + Cdz Λ dx
@@ -75,66 +75,66 @@ Hdx Λ dy Λ dz
 
 (3) 若λ为p次外微分形式，μ为q次外微分形式，则
   
-{%raw%}$$ \mu \wedge \lambda =\left( -1\right) ^{pq}\lambda \wedge \mu$$ {%endraw%}
+$$ \mu \wedge \lambda =\left( -1\right) ^{pq}\lambda \wedge \mu$$ 
 
 对于外微分形式ω，可以定义**外微分算子**如下：
 
-对于零次外微分形式，即函数```f```，定义
-{%raw%}
-$$ df=\dfrac {\partial f}{\partial x}dx+\dfrac {\partial f}{\partial y}dy + \dfrac {\partial f}{\partial z}dz $$
-{%endraw%}
+对于零次外微分形式，即函数$f$，定义
+
+$$\mathrm df=\dfrac {\partial f}{\partial x}dx+\dfrac {\partial f}{\partial y}dy + \dfrac {\partial f}{\partial z}dz $$
+
 即是普通的全微分算子。
 
 对于一次外微分形式
 
-{%raw%}
- $$ \omega = Pdx + Qdy + Rdz$$
-{%endraw%}
+
+ $$ \omega = P\mathrm dx + Q\mathrm dy + R\mathrm dz$$
+
 
 定义
-{%raw%}
-$$ d\omega = dP \wedge dx + dQ \wedge dy + dR \wedge dz$$
-{%endraw%}
+
+$$\mathrm d\omega = \mathrm dP \wedge \mathrm dx + \mathrm dQ \wedge \mathrm dy + \mathrm dR \wedge \mathrm dz$$
+
 
 即对P, Q,R进行外微分，然后进行外乘积，由于
 
-{%raw%}
-$$dP=\dfrac {\partial P}{\partial x}dx+\dfrac {\partial P}{\partial y}dy + \dfrac {\partial P}{\partial z}dz $$
-{%endraw%}
 
-{%raw%}
-$$dQ=\dfrac {\partial Q}{\partial x}dx+\dfrac {\partial Q}{\partial y}dy + \dfrac {\partial Q}{\partial z}dz$$
-{%endraw%}
+$$\mathrm dP=\dfrac {\partial P}{\partial x}\mathrm dx+\dfrac {\partial P}{\partial y}\mathrm dy + \dfrac {\partial P}{\partial z}\mathrm dz $$
 
-{%raw%}
-$$dR=\dfrac {\partial R}{\partial x}dx+\dfrac {\partial R}{\partial y}dy + \dfrac {\partial R}{\partial z}dz$$
-{%endraw%}
+
+
+$$\mathrm dQ=\dfrac {\partial Q}{\partial x}\mathrm dx+\dfrac {\partial Q}{\partial y}\mathrm dy + \dfrac {\partial Q}{\partial z}\mathrm dz$$
+
+
+
+$$\mathrm dR=\dfrac {\partial R}{\partial x}\mathrm dx+\dfrac {\partial R}{\partial y}\mathrm dy + \dfrac {\partial R}{\partial z}\mathrm dz$$
+
 
 所以 
   
-{%raw%}
- $$d\omega = (\dfrac {\partial P}{\partial x}dx+\dfrac {\partial P}{\partial y}dy + \dfrac {\partial P}{\partial z}dz) \wedge dx + (\dfrac {\partial Q}{\partial x}dx+\dfrac {\partial Q}{\partial y}dy + \dfrac {\partial Q}{\partial z}dz) \wedge dy +(\dfrac {\partial R}{\partial x}dx+\dfrac {\partial R}{\partial y}dy + \dfrac {\partial R}{\partial z}dz) \wedge dz$$
-{%endraw%}
+
+ $$\mathrm d\omega = (\dfrac {\partial P}{\partial x}\mathrm dx+\dfrac {\partial P}{\partial y}\mathrm dy + \dfrac {\partial P}{\partial z}\mathrm dz) \wedge \mathrm dx + (\dfrac {\partial Q}{\partial x}\mathrm dx+\dfrac {\partial Q}{\partial y}\mathrm dy + \dfrac {\partial Q}{\partial z}\mathrm dz) \wedge \mathrm dy +(\dfrac {\partial R}{\partial x}\mathrm dx+\dfrac {\partial R}{\partial y}\mathrm dy + \dfrac {\partial R}{\partial z}\mathrm dz) \wedge \mathrm dz$$
+
 
 经过整理，得到
 
-{%raw%}
-$$d\omega = (\dfrac {\partial R}{\partial y}-\dfrac {\partial Q}{\partial z}) dy \wedge dz + (\dfrac {\partial P}{\partial z}-\dfrac {\partial R}{\partial x}) dz \wedge dx +(\dfrac {\partial Q}{\partial x}-\dfrac {\partial P}{\partial y}) dx \wedge dy$$
-{%endraw%}
+
+$$\mathrm d\omega = (\dfrac {\partial R}{\partial y}-\dfrac {\partial Q}{\partial z}) \mathrm dy \wedge \mathrm dz + (\dfrac {\partial P}{\partial z}-\dfrac {\partial R}{\partial x}) \mathrm dz \wedge \mathrm dx +(\dfrac {\partial Q}{\partial x}-\dfrac {\partial P}{\partial y}) \mathrm dx \wedge \mathrm dy$$
+
             
  以此类推。。
  显然我们可知，在三维空间中，任意三次外微分形式的外微分为零。
  
  在三维Euclid空间，Green公式、Stokes公式与Gauss公式实际上都是可以由同一公式写出来，这个定理（或公式）也叫做**斯托克斯（Stokes）定理（Stokes公式）**：
  
- {%raw%}
  
- $$\int_{\partial \Omega} \omega = \int_\Omega d \omega$$
+ 
+ $$\int_{\partial \Omega} \omega = \int_\Omega \mathrm d \omega$$
 
  
- {%endraw%}
+ 
 
-这里，{%raw%}\\( \omega \\){%endraw%}为外微分形式，{%raw%}\\(d\omega\\){%endraw%} 为{%raw%}\\(\omega\\){%endraw%}的外微分，{%raw%}\\(\Omega\\){%endraw%}为{%raw%}\\(d\omega\\){%endraw%}的积分区域，{%raw%}\\( {\partial \Omega} \\){%endraw%}表示{%raw%}\\( \Omega \\){%endraw%}的边界，{%raw%}\\(\Omega \\){%endraw%}的维数与{%raw%}\\( d\omega \\){%endraw%}的次数相一致，{%raw%}\\( \int\\){%endraw%}表示区域有多少维数就是多少重数。
+这里，$\omega$为外微分形式，$\mathrm d\omega$ 为$\omega$的外微分，$\Omega$为$\mathrm d\omega$的积分区域，$ {\partial \Omega} $表示$ \Omega $的边界，$\Omega $的维数与$\mathrm d\omega $的次数相一致，$ \int$表示区域有多少维数就是多少重数。
 
 从这里还可以看出：除了Green公式Stokes公式以及Gauss公式以外，在三维Euclid空间中，联系区域与边界的积分公式不会再有了，因为这是三次外微分形式为零。
 
