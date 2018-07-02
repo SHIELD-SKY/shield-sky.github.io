@@ -49,7 +49,7 @@ tags:
 
 由微分的外乘积乘上函数组成的微分形式，称为**外微分形式**.
 
-若P,Q,R,A,B,C,H都是x,y,z的函数，则$P\mathrm dx + Q\mathrm dy + R\mathrm dz$为一次外微分形式（由于一次没有外乘积，所以与普通的微分形式是一样的）；
+若P,Q,R,A,B,C,H都是x,y,z的函数，则$$P\mathrm dx + Q\mathrm dy + R\mathrm dz$$为一次外微分形式（由于一次没有外乘积，所以与普通的微分形式是一样的）；
 
 ```
 Adx Λ dy + Bdy Λ dz + Cdz Λ dx
@@ -79,7 +79,7 @@ $$ \mu \wedge \lambda =\left( -1\right) ^{pq}\lambda \wedge \mu$$
 
 对于外微分形式ω，可以定义**外微分算子**如下：
 
-对于零次外微分形式，即函数$f$，定义
+对于零次外微分形式，即函数$$f$$，定义
 
 $$\mathrm df=\dfrac {\partial f}{\partial x}dx+\dfrac {\partial f}{\partial y}dy + \dfrac {\partial f}{\partial z}dz $$
 
@@ -134,7 +134,7 @@ $$\mathrm d\omega = (\dfrac {\partial R}{\partial y}-\dfrac {\partial Q}{\partia
  
  
 
-这里，$\omega$为外微分形式，$\mathrm d\omega$ 为$\omega$的外微分，$\Omega$为$\mathrm d\omega$的积分区域，$ {\partial \Omega} $表示$ \Omega $的边界，$\Omega $的维数与$\mathrm d\omega $的次数相一致，$ \int$表示区域有多少维数就是多少重数。
+这里，$$\omega$$为外微分形式，$$\mathrm d\omega$$ 为$$\omega$$的外微分，$$\Omega$$为$$\mathrm d\omega$$的积分区域，$$ {\partial \Omega} $$表示$$ \Omega $$的边界，$$\Omega $$的维数与$$\mathrm d\omega $$的次数相一致，$$ \int$$表示区域有多少维数就是多少重数。
 
 从这里还可以看出：除了Green公式Stokes公式以及Gauss公式以外，在三维Euclid空间中，联系区域与边界的积分公式不会再有了，因为这是三次外微分形式为零。
 
