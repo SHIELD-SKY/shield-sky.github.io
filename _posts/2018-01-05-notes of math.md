@@ -134,7 +134,7 @@ $$\mathrm d\omega = (\dfrac {\partial R}{\partial y}-\dfrac {\partial Q}{\partia
  
  
 
-这里，$$\omega$$为外微分形式，$$\mathrm d\omega$$ 为$$\omega$$的外微分，$$\Omega$$为$$\mathrm d\omega$$的积分区域，$$ {\partial \Omega} $$表示$$ \Omega $$的边界，$$\Omega $$的维数与$$\mathrm d\omega $$的次数相一致，$\int$表示区域有多少维数就是多少重数。
+这里，$$\omega$$为外微分形式，$$\mathrm d\omega$$ 为$$\omega$$的外微分，$$\Omega$$为$$\mathrm d\omega$$的积分区域，$$ {\partial \Omega} $$表示$$ \Omega $$的边界，$$\Omega $$的维数与$$\mathrm d\omega $$的次数相一致，$$\int$$表示区域有多少维数就是多少重数。
 
 从这里还可以看出：除了Green公式Stokes公式以及Gauss公式以外，在三维Euclid空间中，联系区域与边界的积分公式不会再有了，因为这是三次外微分形式为零。
 
