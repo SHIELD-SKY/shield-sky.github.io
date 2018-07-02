@@ -37,13 +37,10 @@ tags:
 
 ### 满足下述两条规则的微分乘积称为微分的外乘积：
 
- $$\begin{equation}
-  \mathrm dx \wedge \mathrm dx = 0
- \end{equation} $$
-
-   $$\begin{equation}
+ $$\begin{gather}
+  \mathrm dx \wedge \mathrm dx = 0 \\
   \mathrm dx \wedge \mathrm dy=- \mathrm dy\wedge \mathrm dx
-  \end{equation}$$
+  \end{gather}$$
 
 
 
