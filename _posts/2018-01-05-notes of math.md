@@ -81,7 +81,7 @@ $$ \mu \wedge \lambda =\left( -1\right) ^{pq}\lambda \wedge \mu$$
 
 对于零次外微分形式，即函数$$f$$，定义
 
-$$\mathrm df=\dfrac {\partial f}{\partial x}dx+\dfrac {\partial f}{\partial y}dy + \dfrac {\partial f}{\partial z}dz $$
+$$\mathrm df=\dfrac {\partial f}{\partial x}\mathrm dx+\dfrac {\partial f}{\partial y}\mathrm dy + \dfrac {\partial f}{\partial z}\mathrm dz $$
 
 即是普通的全微分算子。
 
