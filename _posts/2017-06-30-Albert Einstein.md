@@ -21,7 +21,7 @@ tags:
 
 >No matter what use it might be.
 
->For the smallest molecute to the largest galaxy.
+>From the smallest molecule to the largest galaxy.
 
 >Every question must have a definable answer.
 
