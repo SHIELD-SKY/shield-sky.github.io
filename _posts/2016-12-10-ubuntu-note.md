@@ -11,7 +11,9 @@ tags:
 
 >最近vps被google学术禁了，只能换个ip了，突然想写个自启动脚本，以后懒得重启后，手动开服务了
 
-推荐[vultr](http://www.vultr.com/?ref=6913433)的vps，实测用日本的最快（昨天我我刚试了洛杉矶，新加坡，日本），用俺的链接俺也有反馈，哈哈！
+~~推荐[vultr](http://www.vultr.com/?ref=6913433)的vps，实测用日本的最快（昨天我我刚试了洛杉矶，新加坡，日本），用俺的链接俺也有反馈，哈哈！~~
+
+更新：vultr早已被玩烂了，推荐[onevps](https://www.onevps.com/portal/aff.php?aff=1076)，感觉客服很不错，回复特别快，日本线路速度也超好
 
 ## 正题
 
