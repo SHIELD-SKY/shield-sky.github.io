@@ -46,6 +46,7 @@ To enable copy and paste between host and gust **gtkmm3** is required.
 pacman -S  软件名   #安装instll
 pacman -Syu    #更新update
 pacman -R 软件名    #移除remove
+pacman -U 本地安装包名 #install local package
 ```
 
 
