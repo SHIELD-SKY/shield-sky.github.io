@@ -1,5 +1,4 @@
 ---
-
 layout:     post
 title:      "本科四年总结"
 subtitle:   "我们从何处来？我们是谁？我们向何处去"
