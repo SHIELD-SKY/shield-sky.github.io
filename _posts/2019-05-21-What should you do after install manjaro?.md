@@ -84,7 +84,17 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 chsh -s /bin/zsh
 ```
 
+## vscode
 
+You can search Unofficial package on [AUR](https://aur.archlinux.org)
+
+```shell
+yay -S visual-studio-code-bin	
+```
+
+### Settings Sync
+
+[Stttings Sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync) is a tool that let you synchronize vscode's setting.
 
 ##reference
 
