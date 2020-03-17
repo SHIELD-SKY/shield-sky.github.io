@@ -43,7 +43,7 @@ Here $$\mathcal{C}$$ is a cost function for a segment and $$\beta f(m)$$ is a pe
 
 ### penalty
 
-1. most common choice : $\beta f(m) = \beta m$
+1. most common choice : $$\beta f(m) = \beta m$$
 
    * Akaike’s information criterion (AIC; Akaike 1974) (β = 2p)
 
@@ -51,16 +51,20 @@ Here $$\mathcal{C}$$ is a cost function for a segment and $$\beta f(m)$$ is a pe
 
      
 
-###A brief history
+### A brief history
 
 At the time of writing(2012):
 
-**binary segment(BS)** proposed by Scott and Knott(1974)  is most widely used change point search method.  $\mathcal{O} (n log n)$
+**binary segment(BS)** proposed by Scott and Knott(1974)  is most widely used change point search method.  $$\mathcal{O} (n log n)$$
 
-本质上就是寻找满足以下cost function的$\tau$
+本质上就是寻找满足以下cost function的$$\tau$$
+
+
 $$
 \mathcal{C}(y_{1:\tau}) + \mathcal{C}({y_{(\tau+1):n}})+\beta < \mathcal{C}(y_{1:n})
 $$
+
+
 找的一个点然后二分，再在子段上执行相同操作，直到找不到changepoints为止。 
 
 优点：快
@@ -71,9 +75,9 @@ $$
 
 Serveral exact search method are base on dynamic programming.
 
-**segment neighborhood(SN)** method proposed by Auger and Lawrence (1989) is $\mathcal{O}(Qn^2)$ .  Q 是希望搜索的变化点的最大个数。变化点随着n线性增长，计算复杂度会是cubic
+**segment neighborhood(SN)** method proposed by Auger and Lawrence (1989) is $$\mathcal{O}(Qn^2)$$ .  Q 是希望搜索的变化点的最大个数。变化点随着n线性增长，计算复杂度会是cubic
 
-***The OP Method***.  **An alternative dynamic programming** algorithm is provided by **optimal partitioning (OP)** approach of Jackson et al.(2005) $\mathcal{O}(n^2)$
+***The OP Method***.  **An alternative dynamic programming** algorithm is provided by **optimal partitioning (OP)** approach of Jackson et al.(2005) $$\mathcal{O}(n^2)$$
 
 懒得打公式了，见paper公式(3),及后边推导，及Algorithm 1
 
@@ -91,11 +95,11 @@ OP method 将上一个变化点 之前的cost 与 变化点之后的cost 联系�
 
 那么如何考察对于s下，上一个变化点是谁呢？
 
-根据文章中，公式（3）后的推导，可得出递归方程。可知，想得到s下满足cost $F(S)$的last point of change， 我们可以先解决子问题$F(t)$.
+根据文章中，公式（3）后的推导，可得出递归方程。可知，想得到s下满足cost $$F(S)$$的last point of change， 我们可以先解决子问题$$F(t)$$.
 
-这正是动态规划的思想。**我们这里假设$F(t)$情况下，变化点序列已知**，为求$F(s)$ 我们需要不断针对已知的变化点序列中的待选变化点计算相应的 cost（**注意这里就是PELT以后要优化的地方**）。正如前边提到，cost 是计算待选变化点之前的cost 1 加上。变化点至数据尾端，也就是s的cost2.
+这正是动态规划的思想。**我们这里假设$$F(t)$$情况下，变化点序列已知**，为求$$F(s)$$ 我们需要不断针对已知的变化点序列中的待选变化点计算相应的 cost（**注意这里就是PELT以后要优化的地方**）。正如前边提到，cost 是计算待选变化点之前的cost 1 加上。变化点至数据尾端，也就是s的cost2.
 
-通过不断的筛选，我们最终会计算到$F(n)$，此时可知最优的cost值。
+通过不断的筛选，我们最终会计算到$$F(n)$$，此时可知最优的cost值。
 
 另外通过额外数组的记录，我们最终可以构造出最终的变化点序列。这里的技术细节设计到动态规划的构造解。可以结合论文及其他人的[代码](https://github.com/ruipgil/changepy/blob/master/changepy/pelt.py)理解
 
@@ -112,13 +116,21 @@ PELT 在OP的基础之上加入了 **pruning**
 重点理解Theorem 3.1. 
 
 作者先假设：**we assume there exists a constant *K* suchthatforallt <s <T,**
+
+
 $$
 \mathcal{C}(y_{(\tau+1):s}) + \mathcal{C}(y_{(s+1):T}) +K \leqslant \mathcal{C}(y_{(t+1):T})
 $$
-Then , if 
+
+
+Then , if
+
+ 
 $$
 F(t) + \mathcal{C}(y_{(t+1):s}) + K \geqslant F(S)
 $$
+
+
 Holds, at a future time T > s, *t* can never be the optimal last changepoint prior to *T*.
 
 在假设的前提下，结合Section 5 of the online supplementary materials.
