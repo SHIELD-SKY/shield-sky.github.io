@@ -115,7 +115,7 @@ PELT 在OP的基础之上加入了 **pruning**
 
 重点理解Theorem 3.1. 
 
-作者先假设：**we assume there exists a constant *K* suchthatforallt <s <T,**
+作者先假设：**we assume there exists a constant *K* such that for all t <s <T,**
 
 
 $$
