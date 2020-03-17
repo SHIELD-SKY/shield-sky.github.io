@@ -89,7 +89,7 @@ Serveral exact search method are base on dynamic programming.
 
 
 
-总数据是$$y_{1:n}$$， 对于数据$$y_{1:s}$$, OP method 考虑当前点s下，上一个变化点事谁。
+总数据是$$y_{1:n}$$， 对于数据$$y_{1:s}$$, OP method 考虑当前点s下，上一个变化点是谁。
 
 OP method 将上一个变化点 之前的cost 与 变化点之后的cost 联系起来。原文中这样描述：Following Jackson et al. (2005), the OP method begins by first conditioning on the last point of change. It then relates the optimal value of the cost function to the cost for the optimal partition of the data prior to the last changepoint plus the cost for the segment from the last changepoint to the end of the data. 
 
