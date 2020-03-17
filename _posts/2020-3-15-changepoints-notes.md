@@ -4,7 +4,7 @@ title:      "Optimal Detection of Changepoints with a Linear Computational Cost 
 subtitle:   "note of PELT"
 date:       2020-03-17 16:59:30
 author:     "SHIELD-SKY"
-header-img: "img/Woher_kommen_wir_Wer_sind_wir_Wohin_gehen_wir.jpg"
+header-img: "img/post-bg-2015.jpg"
 tags:
 
 - PELT
@@ -16,17 +16,30 @@ tags:
 ---
 
 One commonly used approach to identify multiple change points is to minimize
+
+
 $$
-\sum_{i=1}^{m+1}[\mathcal{C}(y_{(\tau_{i-1}+1):\tau_{i}})] + \beta f(m) 
+\sum_{i=1}^{m+1}[\mathcal{C}(y_{(\tau_{i-1}+1):\tau_{i}})] + \beta f(m)
 $$
-Here $\mathcal{C}$ is a cost function for a segment and $\beta f(m)$ is a penalty to guard against overfitting.
+
+
+Here $$\mathcal{C}$$ is a cost function for a segment and $$\beta f(m)$$ is a penalty to guard against overfitting.
 
 ### 几种cost function：
 
-   				1. twice th negative log-likelihood
-   				2.  quadratic loss
-   				3. cumulative sums
-   				4. based on both the segment log-likelihood and the length of the segment
+   1. twice th negative log-likelihood
+
+      
+
+   2. quadratic loss
+
+      
+
+   3. cumulative sums
+
+      
+
+   4. based on both the segment log-likelihood and the length of the segment
 
 ### penalty
 
