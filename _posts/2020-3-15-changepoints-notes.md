@@ -101,7 +101,7 @@ OP method 将上一个变化点 之前的cost 与 变化点之后的cost 联系�
 
 通过不断的筛选，我们最终会计算到$$F(n)$$，此时可知最优的cost值。
 
-另外通过额外数组的记录，我们最终可以构造出最终的变化点序列。这里的技术细节设计到动态规划的构造解。可以结合论文及其他人的[代码](https://github.com/ruipgil/changepy/blob/master/changepy/pelt.py)理解
+另外通过额外数组的记录，我们最终可以构造出最终的变化点序列。这里的技术细节涉及到动态规划的构造解。可以结合论文及其他人的[代码](https://github.com/ruipgil/changepy/blob/master/changepy/pelt.py)理解
 
 
 
