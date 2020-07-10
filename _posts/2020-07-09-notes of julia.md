@@ -72,6 +72,22 @@ JuliaZH.generate_startup("BFSU")
 
 
 
+### julia 利用Pkg 很方便的创建新环境
+
+https://julialang.github.io/Pkg.jl/stable/environments/
+
+```shell
+shell> mkdir MyProject
+
+shell> cd MyProject
+/Users/kristoffer/MyProject
+
+(v1.0) pkg> activate .
+
+(MyProject) pkg> st
+Status `Project.toml`
+```
+
 ## Anaconda
 
 下载安装时后，windows下配置 可以再安装的时候勾选 添加**环境变量**
