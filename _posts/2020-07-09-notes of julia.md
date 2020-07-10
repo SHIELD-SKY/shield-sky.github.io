@@ -30,7 +30,8 @@ tags:
 
    注意在windows下， = 两边不要有空格！！！！
 
-   ```powershell
+   
+  ```powershell
    #HTTP 代理设置：
    set http_proxy=http://127.0.0.1:1080
    
@@ -51,8 +52,8 @@ tags:
    
    
    # Ubuntu 下命令为 export
-   # export http_proxy=http://127.0.0.1:1080
-   ```
+# export http_proxy=http://127.0.0.1:1080
+  ```
 
    
 
