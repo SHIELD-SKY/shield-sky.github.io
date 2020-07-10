@@ -32,26 +32,26 @@ tags:
 
    
   ```powershell
-   #HTTP 代理设置：
-   set http_proxy=http://127.0.0.1:1080
+#HTTP 代理设置：
+set http_proxy=http://127.0.0.1:1080
    
-   set https_proxy=http://127.0.0.1:1080
-   # SOCKS5 代理设置：
-   set http_proxy=socks5://127.0.0.1:1080
-   set https_proxy=socks5://127.0.0.1:1080
+set https_proxy=http://127.0.0.1:1080
+# SOCKS5 代理设置：
+set http_proxy=socks5://127.0.0.1:1080
+set https_proxy=socks5://127.0.0.1:1080
    
-   #  如果有用户名密码
-   set http_proxy_user=user
-   set http_proxy_pass=pass
+#  如果有用户名密码
+set http_proxy_user=user
+set http_proxy_pass=pass
    
-   set https_proxy_user=user
-   set https_proxy_pass=pass
+set https_proxy_user=user
+set https_proxy_pass=pass
    
-   # 不走代理的ＩＰ
-   # set NO_PROXY=localhost,127.0.0.1,10.96.0.0/12,192.168.99.0/24,192.168.39.0/24
+# 不走代理的ＩＰ
+# set NO_PROXY=localhost,127.0.0.1,10.96.0.0/12,192.168.99.0/24,192.168.39.0/24
    
    
-   # Ubuntu 下命令为 export
+# Ubuntu 下命令为 export
 # export http_proxy=http://127.0.0.1:1080
   ```
 
